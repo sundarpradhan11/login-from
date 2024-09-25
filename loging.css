@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(pic.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    background: url(images.jfif);
+    left: 40%;
+    top: 208px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+.container h1{
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 4px solid white;
+    margin-bottom: 11px;
+}
+.box{
+    display: flex;
+    margin-bottom: 14px;
+    border: none;
+    border-bottom: 4px solid white;
+}
+.box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.btn{
+    color:black;
+    border-radius: 8px;
+
+}
